@@ -1,0 +1,445 @@
+html{
+    font-family: Roboto, sans-serif;
+    background-color: #ffeedb;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+h1{
+    width: 150px;
+    height: auto;
+}
+header h1{
+    margin-left: 20px;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+header nav ul li{
+    margin: 0 15px;
+}
+h2{
+    font-family: "rafaella", sans-serif;
+font-weight: 700;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.button{
+    background-color: #ba3b46;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.button:hover{
+    background-color: #8c2a2f;
+}
+.button-clair{
+    background-color: #ffeedb;
+    color: #000000;
+    padding: 10px 20px;
+    
+}
+.button-clair:hover{
+    background-color: #f0d8c2;
+}
+.catch-line{
+    position: relative;
+    height: 800px;
+    margin-bottom: 50px;
+    
+}
+.catch-line img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    
+}
+.catch-line h1{
+    font-family: "rafaella", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 300px;
+    margin-right: 800px;
+    white-space: nowrap;
+}
+.catch-line p{
+    margin-top: 20px;
+}
+.Produit{
+    width: 100%;
+    height: 900px;
+    margin-bottom: 50px;
+    background-color: #ed9b40;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.Produit h2{
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.Produit p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+}
+.Produit img{
+    object-fit: cover;
+}
+.Produit .button{
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.Parcours{
+    width: 100%;
+    padding: 80px 0;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.container-large{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+.Parcours h2{
+     font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.Parcours p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.Mental{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.Mental h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 85px;
+}
+.Mental p{
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.Mental img{
+    width: 250px;
+  margin-bottom: 20px;
+}
+.Physique{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -415px;
+}
+.Physique h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.Physique p{
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center ;
+}
+.Physique img{
+    width: 250px;
+    margin-bottom: 20px;
+    
+}
+.Emotionnel img{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.Emotionnel{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    margin-top: -382px;
+}
+.Emotionnel h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: right;
+    margin-right: 85px;
+}
+.Emotionnel p{
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.Avis{
+    width: 100%;
+    padding: 80px 0;
+    margin-bottom: 50px;
+}
+.Avis h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.temoignage{
+    height: 250px;
+    width: 400px;
+    background-color:#ed9b40;
+    margin: 0 20px;
+    border-radius: 10px;
+    display: inline-block;
+}   
+.temoignage img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.temoignage h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin: 0 20px 10px 20px;
+}
+.temoignage p{
+    font-size: 1em;
+    margin: 0 20px 10px 20px;
+}
+.noteavis{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.noteenchiffre{
+    font-size: 1em;
+    margin-left: 10px;
+}
+arrow-slider{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.arrow{
+    background-color: #ba3b46;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: #8c2a2f;
+}
+.precedent, .suivant{
+    background-color: #ba3b46;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.precedent:hover, .suivant:hover{
+    background-color: #8c2a2f;
+}
+.Rendezvous{
+    width: 100%;
+    height: 900px;
+    background-color:#ba3b46;
+}  
+.container-large{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}  
+.Rendezvous h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+
+}
+.Rendezvous p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+    color: #ffffff;
+}
+.Rendezvous iframe{
+    width: 100%;
+    height: 600px;
+    border: none;
+}
+.Rendezvous .button{
+    background-color: #ed9b40;
+}
+.Rendezvous .button:hover{
+    background-color: #c7762e;
+}
+.Rendezvous .button-clair{
+    background-color:#ba3b46;
+    border: 2px solid #ffeedb;
+    color: #ffeedb;
+}
+.Rendezvous .button-clair:hover{
+    background-color: #8c2a2f;
+    border: 2px solid #ffeedb;
+    color: #ffeedb;
+}
+.rendezvous-buttons{
+    display: flex;
+    gap: 20px;
+}
+.rendezvous-buttons .button, .rendezvous-buttons .button-clair{
+    padding: 15px 30px;
+    font-size: 1.2em;
+}
+.Blog{
+    width: 100%;
+    padding: 80px 0;
+    margin-bottom: 50px;
+}
+.Blog h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Blog p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    width: 60%;
+    text-align: center;
+}
+.colonne{
+    width: 33.33%;
+    height: 1050px;
+    background-color: #ed9b40;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -4px;
+}
+.Blog img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.article1, .article2, .article3, .article4, .article5, .article6{
+    padding: 20px;
+}
+.article1 p, .article2 p, .article3 p, .article4 p, .article5 p, .article6 p{
+    font-size: 1.2em;
+    margin-top: 15px;
+    text-align: center;
+}
+.article1 p:hover, .article2 p:hover, .article3 p:hover, .article4 p:hover, .article5 p:hover, .article6 p:hover{
+    color: #ba3b46;
+    cursor: pointer;
+}
+footer{
+    background-color: #ffeedb;
+    padding: 40px 0;
+    
+}
+footer .container-large{
+    display: flex;
+    justify-content: left;
+    padding: 40px 0;
+
+}
+.footer-social{
+    width: 150px;
+    height: auto;
+    margin-right: 100px;
+    
+}
+footer h1{
+    width: 150px;
+    height: auto;
+    margin-right: 1000px;
+}
+.allinks{
+    display: flex;
+    gap: 80px;
+}
+.footer-links h3{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.footer-links ul li{
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-links ul li p:hover{
+    color: #ba3b46;
+    cursor: pointer;
+}
+.footer-social img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555555;
+}
+.footer-bottom p a{
+    color: #ba3b46;
+}
+.footer-bottom p a:hover{
+    text-decoration: underline;
+}
